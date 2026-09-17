@@ -1,0 +1,15 @@
+I need to make the following changes in the Sahara app 
+1. first of all its not an app its a website - so make it an app
+2. the database design is not good - think about it, discuss with gpt/cluade 
+3. implement the sms thing 
+4. think about how can this be implemented at clg level 
+5. implement image recognition 
+6. hierarchy control, it must not be like anyone is signing up as admin and authurity 
+7.     token = create_access_token({
+        "user_id": str(result.inserted_id),
+        "role": user_dict["role"],
+        "name": user_dict["name"],
+        "department": user_dict.get("department")
+    })--- sort this out cuz it doesnt seem like causing any effect to the site 
+	
+8. making it usable for private users instead of govt - think about it 
